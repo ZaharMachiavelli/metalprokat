@@ -1,0 +1,1369 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-family: Roboto, Arial;
+}
+ul,li {
+	list-style:none;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.header {
+	display: flex;
+	background-color:#f1f1f1;
+	padding:0 100px;
+	justify-content: space-between;
+}
+.nav li{
+	display: inline-block;
+	margin-top: 23px;
+}
+#logo {
+	background-color: #037cc1;
+	padding: 20px 10px;
+	color: #fff;
+	font-size: 20px;
+}
+
+#logo:hover {
+	font-style: italic;
+	text-decoration: underline;
+	transition: all 0.5s ease-out;
+}
+.nav a{
+	padding: 20px 35px;
+	/*border: 1px solid red;*/
+	position: relative;
+}
+.nav a:hover::before {
+	content: '';
+	width:100%;
+	height: 3px;
+	background-color: #037cc1;
+	position: absolute;
+	top:100%;
+	left: 0;
+	transition: .5s;
+}
+#number {
+	color: #037cc1;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 6px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#ejednevno {
+	font-size: 14px;
+	text-align: center;
+}
+
+.banner {
+	background: url(img/bg.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.banner h1, .banner h2,.banner h3,.banner h4,.banner a {
+	color: white;
+	text-align: center;
+}
+.banner h1 {
+	font-size: 60px;
+	padding-top: 100px;
+	margin-bottom: 100px;
+}
+.banner h2 {
+	font-size: 45px;
+	margin-bottom: 30px;
+}
+.banner h3 {
+	font-size: 30px;
+	border-bottom: 2px solid white;
+	margin: 0 auto;
+	width:550px;
+	margin-bottom: 20px;
+}
+.banner h4 {
+	font-size: 20px;
+	margin-bottom: 100px;
+}
+.button-right {
+	text-align: right;
+	margin-right: 150px;
+}
+.banner a{
+	padding: 20px 40px;
+	background-color: #037cc1;
+	border-radius: 7px;
+	transition: all 0.5s ease;
+
+	cursor: pointer;
+}
+.banner a:hover{
+	color:#037cc1;
+	background-color: white;
+}
+.onepoint {
+	display: flex;
+	margin-bottom: 20px;
+}
+.onepoint img{
+	max-height: 17px;
+	max-width: 14px;
+	min-height: 17px;
+	min-width: 14px;
+	margin-right: 10px;
+}
+.div-podrobnee {
+	text-align: right;
+}
+.podrobnee {
+	color: #037cc1;;
+	padding: 10px 40px;
+	border: 2px #037cc1 solid;
+	border-radius: 20px;
+	margin-right: 50px;
+}
+.podrobnee:hover {
+	background-color: #037cc1;
+	color: #fff;
+	border: 2px #fff solid;
+	transition: all 0.5s ease;
+}
+
+.about-company {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+.about-company h5{
+	font-size: 30px;
+	padding-top: 50px;
+	margin-bottom: 30px;
+}
+.last-p {
+	margin-bottom: 40px;
+}
+.uslugi h5 {
+	font-size: 30px;
+	padding-top: 50px;
+	margin-bottom: 70px;
+}
+.uslugi-one h6 {
+	font-size: 25px;
+	font-weight: 400;
+	padding-top: 40px;
+	margin-bottom: 30px;
+}
+
+.uslugi-information {
+	margin-bottom: 40px;
+	text-align: center;
+	display: flex;
+	column-gap: 25px;
+}
+.uslugi-one img{
+	width: 140px;
+	height: 120px;
+}
+#proektirovanie {
+	width: 120px;
+}
+#hands {
+	width: 200px;
+}
+#star {
+	width: 110px;
+}
+#rub {
+	width: 110px;
+}
+.produkciya h5 {
+	font-size: 30px;
+	padding-top: 50px;
+	margin-bottom: 70px;
+}
+
+.contacts h5 {
+	font-size: 30px;
+	padding-top: 50px;
+	margin-bottom: 10px;
+}
+.contacts h6 {
+	font-size: 25px;
+	font-weight: 400;
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+.contacts-information {
+	display: flex;
+}
+.numbers p{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+#ejedn {
+	margin-left: 10px;
+	font-size: 14px;
+	margin-top: 1px;
+}
+.adress {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+.pochta {
+	margin-left: 10px;
+	margin-bottom: 70px;
+	font-weight: 500;
+}
+.div-sdelat-zakaz {
+	text-align: center;
+}
+.sdelat-zakaz {
+	padding: 20px 40px;
+	background-color: #037cc1;
+	border-radius: 7px;
+	transition: all 0.5s ease;
+	color: #fff;
+}
+.sdelat-zakaz:hover {
+	color:#037cc1;
+	background-color: white;
+	border:1px solid #037cc1;
+}
+#questions {
+	font-size: 30px;
+	text-align: center;
+	padding-top: 60px;
+	font-weight: 500;
+	margin-bottom: 60px;
+}
+.div-zadat-vopros {
+	text-align: center;
+}
+.zadat-vopros {
+	padding: 20px 40px;
+	background-color: #037cc1;
+	border-radius: 7px;
+	transition: all 0.5s ease;
+	color: #fff;
+}
+.zadat-vopros:hover {
+	color:#037cc1;
+	background-color: white;
+	border:1px solid #037cc1;
+}
+.main {
+	margin-bottom: 80px;
+}
+
+.footer {
+	height: 110px;
+	background-color: #f1f1f1;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left:150px;
+	padding-right:150px;
+	font-size: 20px;
+}
+.social {
+	text-align: center;
+}
+.social p{
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.social a{
+	margin: 0 5px;
+}
+.svyaz p{
+	margin-bottom: 10px;
+}
+#met {
+	margin-top: 30px;
+	font-size: 25px;
+}
+
+/*slider*/
+
+.slidershow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: .6s ease;
+	border-radius: 0 3px 3px 0;
+
+}
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+.text {
+	font-size: 30px;
+	position: absolute;
+	top:0;
+	right: 0;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 20px;
+}
+.dot{
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+	background-color: #717171;
+}
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+@keyframes fade{
+	from{opacity: .4}
+	to{opacity: 1}
+}
+.slidershow-container {
+	margin-bottom: 50px;
+}
+.mySlides img {
+	height: 500px;
+}
+
+/*Окно заказа*/
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	top:0;
+	left:0;
+	background-color: rgba(0,0,0,0.8);
+	display: none;
+}
+.overlay-2 {
+	position: absolute;
+	width: 100%;
+	height: 150vh;
+	top:0;
+	left:0;
+	background-color: rgba(0,0,0,0.8);
+	display: none;
+}
+.popup {
+	position: absolute;
+	width: 70%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 30px;
+	box-sizing: border-box;
+	background-color: #fff;
+	color: #fff;
+	border: 7px solid #037cc1;
+	
+}
+.popup h6 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+.popup label {
+	font-size: 20px;
+}
+.popup input {
+	height: 40px;
+	width: 400px;
+	background-color: #f1f1f1;
+	border:none;
+	border-radius: 10px;
+	padding: 0 20px;
+	outline:none;
+}
+.popup p{
+	text-align: center;
+	color:#3a3939;
+}
+.zakazat {
+	padding: 20px 50px;
+	background-color: #037cc1;
+	border-radius: 7px;
+	transition: all 0.5s ease;
+	color: #fff;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;	
+}
+.zakazat-div {
+	text-align: right;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.close-popup {
+	position: absolute;
+	top:15px;
+	right: 15px;
+	width: 23px;
+	height: 23px;
+	cursor: pointer;
+}
+.close-popup:before {
+	content: '';
+	background-color: #037cc1;
+	position: absolute;
+	height: 1px;
+	width: 31px;
+	top: 11px;
+	left: -4px;
+	transform: rotate(-45deg);
+}
+.close-popup:after {
+	content: '';
+	background-color: #037cc1;
+	position: absolute;
+	height: 1px;
+	width: 31px;
+	top: 11px;
+	left: -4px;
+	transform: rotate(45deg);
+}
+#textarea {
+	width: 600px;
+	height: 200px;
+	background-color: #f1f1f1;
+	border:none;
+	border-radius: 10px;
+	padding: 10px 20px;
+	outline: none;
+	resize : none;
+}
+@media(min-width: 0px) and (max-width: 320px) {
+	.container {
+		width: 100%;
+	}
+	.header {
+		padding:0 0;
+	}
+	.nav li{
+		display: inline-block;
+		margin-top: 10px;
+	}
+	.nav a:hover::before {
+		content: '';
+		width:100%;
+		height: 1px;
+		background-color: #037cc1;
+		position: absolute;
+		top:100%;
+		left: 0;
+		transition: .5s;
+	}
+	#logo {
+		background-color: #037cc1;
+		padding: 10px 10px;
+		color: #fff;
+		font-size: 8px;
+	}
+	.nav a{
+		padding: 2px 10px;
+		/*border: 1px solid red;*/
+		position: relative;
+		font-size: 8px;
+	}
+	#number {
+		color: #037cc1;
+		font-size: 9px;
+		font-weight: 600;
+		margin-top: 6px;
+		margin-bottom: 7px;
+		text-align: center;
+
+	}
+	#ejednevno {
+		font-size: 8px;
+		text-align: center;
+	}
+	.banner {
+		height: 50vh;
+	}
+	.banner h1 {
+		font-size: 20px;
+		padding-top: 30px;
+		margin-bottom: 30px;
+	}
+	.banner h2 {
+		font-size: 17px;
+		margin-bottom: 20px;
+	}
+	.banner h3 {
+		font-size: 15px;
+		border-bottom: 2px solid white;
+		margin: 0 auto;
+		width:270px;
+		margin-bottom: 20px;
+	}
+	.banner h4 {
+		font-size: 13px;
+		margin-bottom: 50px;
+	}
+	.button-right {
+		text-align: right;
+		margin-right: 20px;
+	}
+	.banner a{
+		padding: 10px 20px;
+		background-color: #037cc1;
+		border-radius: 5px;
+		transition: all 0.5s ease;
+		
+		cursor: pointer;
+	}
+	.uslugi-one img{
+		display: block;
+		margin: 0 auto;
+	}
+	.uslugi-one p{
+		margin-bottom: 40px;
+	}
+	.mySlides img {
+		height: 200px;
+	}
+	.div-podrobnee {
+		text-align: center;
+	}
+	.podrobnee {
+		margin-right: 0px;
+	}
+	.footer {
+		height: 60px;
+		background-color: #f1f1f1;
+		display: flex;
+		justify-content: space-between;
+		padding-top: 20px;
+		padding-left:0px;
+		padding-right:0px;
+		font-size: 20px;
+	}
+	.social {
+		text-align: center;
+	}
+	.social p{
+		margin-bottom: 15px;
+		font-size: 10px;
+		font-weight: bold;
+	}
+	.social a{
+		margin: 0 5px;
+	}
+	.social a img {
+		height: 20px;
+		width: 20px;
+	}
+	.svyaz p{
+		margin-bottom: 10px;
+		font-size: 10px;
+	}
+	#met {
+		margin-top: 20px;
+		font-size: 10px;
+	}
+	.popup {
+		position: absolute;
+		width: 70%;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		padding: 30px;
+		box-sizing: border-box;
+		background-color: #fff;
+		color: #fff;
+		border: 7px solid #037cc1;
+		
+	}
+	.popup h6 {
+		text-align: center;
+		font-size: 15px;
+		font-weight: 500;
+		margin-bottom: 20px;
+	}
+	.popup label {
+		font-size: 12px;
+	}
+	.popup input {
+		height: 20px;
+		width: 100px;
+		background-color: #f1f1f1;
+		border:none;
+		border-radius: 10px;
+		padding: 0 20px;
+		outline:none;
+	}
+	.popup p{
+		text-align: center;
+		color:#3a3939;
+		font-size: 10px;
+	}
+	.zakazat {
+		padding: 10px 10px;
+		background-color: #037cc1;
+		border-radius: 7px;
+		transition: all 0.5s ease;
+		color: #fff;
+		border: none;
+		font-size: 10px;
+		cursor: pointer;	
+	}
+	.zakazat-div {
+		text-align: center;
+		margin-top: 30px;
+		margin-right: 0px;
+	}
+	.close-popup {
+		position: absolute;
+		top:15px;
+		right: 15px;
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+	}
+	.close-popup:before {
+		content: '';
+		background-color: #037cc1;
+		position: absolute;
+		height: 1px;
+		width: 21px;
+		top: 10px;
+		left: -1px;
+		transform: rotate(-45deg);
+	}
+	.close-popup:after {
+		content: '';
+		background-color: #037cc1;
+		position: absolute;
+		height: 1px;
+		width: 21px;
+		top: 10px;
+		left: -1px;
+		transform: rotate(45deg);
+	}
+	#textarea {
+		width: 100px;
+		height: 60px;
+		background-color: #f1f1f1;
+		border:none;
+		border-radius: 10px;
+		padding: 10px 20px;
+		outline: none;
+		resize : none;
+	}
+}
+
+@media(min-width: 321px) and (max-width: 480px) {
+	.header {
+		padding:0 0;
+	}
+	.nav li{
+		display: block;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		text-align: center;
+	}
+	.nav a:hover::before {
+		content: '';
+		width:100%;
+		height: 1px;
+		background-color: #037cc1;
+		position: absolute;
+		top:100%;
+		left: 0;
+		transition: .5s;
+	}
+	#logo {
+		background-color: #037cc1;
+		padding: 40px 3px 0 3px;
+		color: #fff;
+		font-size: 8px;
+	}
+	.nav a{
+		padding: 2px 10px;
+		position: relative;
+		font-size: 8px;
+	}
+	#number {
+		color: #037cc1;
+		font-size: 9px;
+		font-weight: 600;
+		margin-top: 30px;
+		margin-bottom: 7px;
+		text-align: center;
+
+	}
+	#ejednevno {
+		font-size: 7px;
+		text-align: center;
+	}
+	.banner {
+		height: 50vh;
+	}
+	.banner h1 {
+		font-size: 20px;
+		padding-top: 30px;
+		margin-bottom: 30px;
+	}
+	.banner h2 {
+		font-size: 17px;
+		margin-bottom: 20px;
+	}
+	.banner h3 {
+		font-size: 15px;
+		border-bottom: 2px solid white;
+		margin: 0 auto;
+		width:270px;
+		margin-bottom: 20px;
+	}
+	.banner h4 {
+		font-size: 13px;
+		margin-bottom: 50px;
+	}
+	.button-right {
+		text-align: right;
+		margin-right: 20px;
+	}
+	.banner a{
+		padding: 10px 20px;
+		background-color: #037cc1;
+		border-radius: 5px;
+		transition: all 0.5s ease;
+		
+		cursor: pointer;
+	}
+	.uslugi-one img{
+		display: block;
+		margin: 0 auto;
+	}
+	.uslugi-one p{
+		margin-bottom: 40px;
+	}
+	.mySlides img {
+		height: 200px;
+	}
+	.div-podrobnee {
+		text-align: center;
+	}
+	.podrobnee {
+		margin-right: 0px;
+	}
+	.footer {
+		height: 60px;
+		background-color: #f1f1f1;
+		display: flex;
+		justify-content: space-between;
+		padding-top: 20px;
+		padding-left:0px;
+		padding-right:0px;
+		font-size: 20px;
+	}
+	.social {
+		text-align: center;
+	}
+	.social p{
+		margin-bottom: 15px;
+		font-size: 10px;
+		font-weight: bold;
+	}
+	.social a{
+		margin: 0 5px;
+	}
+	.social a img {
+		height: 20px;
+		width: 20px;
+	}
+	.svyaz p{
+		margin-bottom: 10px;
+		font-size: 10px;
+	}
+	#met {
+		margin-top: 20px;
+		font-size: 10px;
+	}
+	.popup {
+		position: absolute;
+		width: 70%;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		padding: 30px;
+		box-sizing: border-box;
+		background-color: #fff;
+		color: #fff;
+		border: 7px solid #037cc1;
+		
+	}
+	.popup h6 {
+		text-align: center;
+		font-size: 15px;
+		font-weight: 500;
+		margin-bottom: 20px;
+	}
+	.popup label {
+		font-size: 12px;
+	}
+	.popup input {
+		height: 20px;
+		width: 100px;
+		background-color: #f1f1f1;
+		border:none;
+		border-radius: 10px;
+		padding: 0 20px;
+		outline:none;
+	}
+	.popup p{
+		text-align: center;
+		color:#3a3939;
+		font-size: 10px;
+	}
+	.zakazat {
+		padding: 10px 10px;
+		background-color: #037cc1;
+		border-radius: 7px;
+		transition: all 0.5s ease;
+		color: #fff;
+		border: none;
+		font-size: 10px;
+		cursor: pointer;	
+	}
+	.zakazat-div {
+		text-align: center;
+		margin-top: 30px;
+		margin-right: 0px;
+	}
+	.close-popup {
+		position: absolute;
+		top:15px;
+		right: 15px;
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+	}
+	.close-popup:before {
+		content: '';
+		background-color: #037cc1;
+		position: absolute;
+		height: 1px;
+		width: 21px;
+		top: 10px;
+		left: -1px;
+		transform: rotate(-45deg);
+	}
+	.close-popup:after {
+		content: '';
+		background-color: #037cc1;
+		position: absolute;
+		height: 1px;
+		width: 21px;
+		top: 10px;
+		left: -1px;
+		transform: rotate(45deg);
+	}
+	#textarea {
+		width: 100px;
+		height: 60px;
+		background-color: #f1f1f1;
+		border:none;
+		border-radius: 10px;
+		padding: 10px 20px;
+		outline: none;
+		resize : none;
+	}	
+	.text {
+		font-size: 20px;
+	}
+}
+
+/*@media(min-width: 0px) and (max-width: 1300px) {
+	.banner {
+		height: 35vh;
+	}	
+}*/
+
+@media(min-width: 481px) and (max-width: 767px) {
+	.header {
+		padding:0 0px;
+	}
+	.uslugi-information {
+		flex-direction: column;
+		row-gap: 15px;
+	}
+
+	.uslugi-information > * {
+		flex: 0 0 100%;
+	}
+	.produkciya h5 {
+		padding: 0;
+	}
+	.nav li{
+		display: block;
+		margin-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+	#logo {
+		padding: 65px 5px;
+		color: #fff;
+		font-size: 14px;
+		text-align: center;
+	}
+	.nav a{
+		padding: 5px 10px;
+
+		/*border: 1px solid red;*/
+		position: relative;
+	}
+	#number {
+		color: #037cc1;
+		font-size: 14px;
+		font-weight: 600;
+		margin-top: 50px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	#ejednevno {
+		font-size: 11px;
+		text-align: center;
+	}
+
+	.banner {
+		height: 75vh;
+	}
+
+	.banner h1 {
+		font-size: 25px;
+		padding-top: 70px;
+		margin-bottom: 70px;
+	}
+	.banner h2 {
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
+	.banner h3 {
+		font-size: 18px;
+		border-bottom: 2px solid white;
+		margin: 0 auto;
+		width:330px;
+		margin-bottom: 30px;
+	}
+	.banner h4 {
+		font-size: 20px;
+		margin-bottom: 100px;
+	}
+	.button-right {
+		text-align: right;
+		margin-right: 50px;
+	}
+	.banner a{
+		padding: 10px 20px;
+		background-color: #037cc1;
+		border-radius: 5px;
+		transition: all 0.5s ease;
+		font-size: 16px;
+		cursor: pointer;
+	}
+	.banner a:hover{
+		color:#037cc1;
+		background-color: white;
+	}
+	.uslugi-one {
+		margin: 0 auto;
+		
+	}
+
+	.uslugi-one > * {
+		flex: 1 0 33,3%;
+		text-align: center;
+	}
+
+	.uslugi-one img{
+		display: block;
+		margin: 0 auto;
+	}
+	.uslugi-one p{
+		margin-bottom: 40px;
+	}
+	.mySlides img {
+		height: 300px;
+	}
+	.text {
+		font-size: 20px;
+	}
+	.footer {
+		height: 80px;
+		background-color: #f1f1f1;
+		display: flex;
+		justify-content: space-between;
+		padding-top: 20px;
+		padding-left:10px;
+		padding-right:10px;
+		font-size: 20px;
+	}
+	.social {
+		text-align: center;
+	}
+	.social p{
+		margin-bottom: 15px;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	.social a{
+		margin: 0 5px;
+	}
+	.social a img {
+		height: 20px;
+		width: 20px;
+	}
+	.svyaz p{
+		margin-bottom: 10px;
+		font-size: 15px;
+	}
+	#met {
+		margin-top: 25px;
+		font-size: 13px;
+	}
+
+	.popup h6 {
+		text-align: center;
+		font-size: 20px;
+		font-weight: 500;
+		margin-bottom: 20px;
+	}
+	.popup label {
+		font-size: 15px;
+	}
+	.popup input {
+		height: 30px;
+		width: 300px;
+		background-color: #f1f1f1;
+		border:none;
+		border-radius: 10px;
+		padding: 0 20px;
+		outline:none;
+	}
+	.popup p{
+		text-align: center;
+		color:#3a3939;
+		font-size: 13px;
+	}
+	.zakazat {
+		padding: 15px 20px;
+		background-color: #037cc1;
+		border-radius: 5px;
+		transition: all 0.5s ease;
+		color: #fff;
+		border: none;
+		font-size: 15px;
+		cursor: pointer;	
+	}
+	.zakazat-div {
+		text-align: right;
+		margin-top: 30px;
+		margin-right: 0px;
+	}
+	#textarea {
+		width: 300px;
+		height: 80px;
+		background-color: #f1f1f1;
+		border:none;
+		border-radius: 10px;
+		padding: 10px 20px;
+		outline: none;
+		resize : none;
+	}	
+} 
+/*Ниже для моего телефона*/
+@media(min-width: 768px) and (max-width: 992px) {
+	.header {
+		padding:0 50px;
+	}
+	.nav li{
+		display: inline-block;
+		margin-top: 15px;
+		padding-bottom: 10px;
+		text-align: center;
+		font-size: 17px;
+	}
+	#logo {
+		padding: 13px 5px;
+		color: #fff;
+		font-size: 14px;
+		text-align: center;
+	}
+	.nav a{
+		padding: 7px 10px;
+
+		/*border: 1px solid red;*/
+		position: relative;
+	}
+	#number {
+		color: #037cc1;
+		font-size: 14px;
+		font-weight: 600;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	#ejednevno {
+		font-size: 11px;
+		text-align: center;
+	}
+	.banner {
+		max-height: 500px;
+	}
+
+	.banner h1 {
+		font-size: 40px;
+		padding-top: 50px;
+		margin-bottom: 50px;
+	}
+	.banner h2 {
+		font-size: 35px;
+		margin-bottom: 30px;
+	}
+	.banner h3 {
+		font-size: 30px;
+		border-bottom: 2px solid white;
+		margin: 0 auto;
+		width: 540px;
+		margin-bottom: 30px;
+	}
+	.banner h4 {
+		font-size: 20px;
+		margin-bottom: 70px;
+	}
+	.button-right {
+		text-align: right;
+		margin-right: 70px;
+	}
+	.banner a{
+		padding: 15px 30px;
+		background-color: #037cc1;
+		border-radius: 5px;
+		transition: all 0.5s ease;
+		font-size: 16px;
+		cursor: pointer;
+	}
+	.banner a:hover{
+		color:#037cc1;
+		background-color: white;
+	}
+	.uslugi h5 {
+		font-size: 30px;
+		padding-top: 50px;
+		margin-bottom: 70px;
+	}
+	.uslugi-one h6 {
+		font-size: 20px;
+		font-weight: 500;
+		padding-top: 40px;
+		margin-bottom: 30px;
+	}
+	.uslugi-one {
+		width: 200px;
+	}
+	.uslugi-information {
+		margin-bottom: 40px;
+	}
+	.uslugi-one img{
+		width: 140px;
+		height: 120px;
+	}
+	#proektirovanie {
+		width: 120px;
+	}
+	#hands {
+		width: 180px;
+
+	}
+	#star {
+		width: 110px;
+	}
+	#rub {
+		width: 100px;
+	}
+	.footer {
+		height: 100px;
+		background-color: #f1f1f1;
+		display: flex;
+		justify-content: space-between;
+		padding-top: 20px;
+		padding-left:10px;
+		padding-right:10px;
+		font-size: 20px;
+	}
+	.social {
+		text-align: center;
+	}
+	.social p{
+		margin-bottom: 15px;
+		font-size: 17px;
+		font-weight: bold;
+	}
+	.social a{
+		margin: 0 5px;
+	}
+	.social a img {
+		height: 25px;
+		width: 25px;
+	}
+	.svyaz p{
+		margin-bottom: 10px;
+		font-size: 17px;
+	}
+	#met {
+		margin-top: 25px;
+		font-size: 17px;
+	}
+	.contacts h5 {
+		font-size: 30px;
+		padding-top: 50px;
+		margin-bottom: 10px;
+	}
+	.contacts h6 {
+		font-size: 25px;
+		font-weight: 400;
+		padding-top: 20px;
+		margin-bottom: 10px;
+	}
+	.contacts-information {
+		display: flex;
+		width: 100%;
+	}
+	.contacts-information p{
+		/*width: 150px;*/
+	}
+	.numbers {
+		/*width: 150px;*/
+	}
+	.numbers p{
+		margin-left: 20px;
+		margin-bottom: 10px;
+		font-weight: 500;
+		font-size: 16px;
+	}
+	#ejedn {
+		margin-left: 10px;
+		font-size: 14px;
+		margin-top: 1px;
+	}
+	.adress {
+		margin-left: 10px;
+		margin-bottom: 10px;
+		font-weight: 500;
+	}
+	.pochta {
+		margin-left: 10px;
+		margin-bottom: 70px;
+		font-weight: 500;
+	}
+
+	.social .footer-title {
+		font-weight: bold;
+		font-size: 18px;
+	}
+}
+@media(min-width: 993px) and (max-width: 1200px) {
+	.banner {
+		min-height: 40vh;
+		height: fit-content;
+		padding: 20px 0;
+	}
+	#logo {
+		text-align: center;
+	}
+	.nav li {
+		text-align: center;
+		font-size: 15px;
+	}
+	.nav a{
+		padding: 20px 10px;
+		position: relative;
+	}
+	#number {
+		margin-top: 10px;
+		font-size: 14px;
+		font-weight: 600;
+	}
+	#ejednevno {
+		font-size: 11px;
+		text-align: center;
+	}
+	.footer {
+		height: 100px;
+		background-color: #f1f1f1;
+		display: flex;
+		justify-content: space-between;
+		padding-top: 20px;
+		padding-left:50px;
+		padding-right:50px;
+		font-size: 20px;
+	}
+	.social {
+		text-align: center;
+	}
+	.social p{
+		margin-bottom: 15px;
+		font-size: 17px;
+		font-weight: bold;
+	}
+	.social a{
+		margin: 0 5px;
+	}
+	.social a img {
+		height: 25px;
+		width: 25px;
+	}
+	.svyaz p{
+		margin-bottom: 10px;
+		font-size: 17px;
+	}
+	#met {
+		margin-top: 25px;
+		font-size: 17px;
+	}
+}
